@@ -5,7 +5,7 @@
     padding: 10px;
     margin: 3px;
     background-color: orange;
-    flex-basis: 15%;
+    flex-basis: 30%;
     max-height: 220px;
 }
 
@@ -18,8 +18,12 @@
     display: flex;
     flex-wrap: wrap;
     height:700px;
-    align-content: baseline;
+    align-content: flex-end;
 } 
+.ordered-item{
+    align-content: flex-start;
+
+}
 
 
 
