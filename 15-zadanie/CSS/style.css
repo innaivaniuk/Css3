@@ -5,7 +5,7 @@ body{
     front-size:0px;
 
 }
-.box{
+/* .box{
     font-size:16px;
      border:10px solid red;
      float:left;
@@ -23,4 +23,31 @@ body{
         width:100%;
         font-size:28px;
     }
-}
+} */ 
+
+
+    
+
+    .box{
+    
+      font-size:28px;
+         border:10px solid red;
+         
+         width: 100%;
+    }
+
+   @media (min-width:768px) {
+       .box {
+           width:50%;
+           font-size: 20px;
+           float: left;
+       }
+
+    }
+    @media (min-width:992px) {
+        .box {
+            width:25%;
+            font-size: 16px;
+            float: left;
+        }
+    }
