@@ -25,14 +25,10 @@ body{
     }
 } */ 
 
-
-    
-
     .box{
     
       font-size:28px;
-         border:10px solid red;
-         
+         border:10px solid red; 
          width: 100%;
     }
 
