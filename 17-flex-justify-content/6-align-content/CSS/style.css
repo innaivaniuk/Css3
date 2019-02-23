@@ -1,0 +1,25 @@
+.flex-item {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 3px;
+    background-color: orange;
+    flex-basis: 15%;
+    max-height: 220px;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: lightgray;
+    max-height: 150px;
+}
+.container {
+    border:1px dased red;
+    display: flex;
+    flex-wrap: wrap;
+    height:700px;
+    align-content: baseline;
+} 
+
+
+
