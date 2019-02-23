@@ -1,0 +1,23 @@
+.box {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+}
+#colors {
+	background-color: red;
+}
+#colors:hover {
+	transition: width: 300px; 3s;
+	background-color: read-only;
+
+}
+
+.box1 {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+}
+#colors1 {
+	background-color: blue;
+
+}
